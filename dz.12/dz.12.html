@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@400;700&family=Roboto+Slab:wght@200&display=swap" 
+      rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 942px;
+            margin: 0 auto;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 90px;
+        }
+        .list-nav{
+            list-style: none;
+            display: flex;
+        }
+
+        .link-nav{
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #FED136;
+            margin-right: 30px;
+        }
+
+        .list-nav:last-child{
+            margin-right: 0px;
+        }
+
+        .golden{
+            color:#FED136;
+            text-decoration: none;
+        }
+        .Montserat{
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .Bilbo{
+            font-family: 'Bilbo Swash Caps', cursive;
+            font-size: 36px;
+        }
+
+        .Robotoslab{
+            font-family: 'Roboto Slab', serif;
+            color: #777777;
+            font-size: 14px;
+        }
+
+        .Montserat-700{
+            font-weight: 700;
+        }
+
+        .services{
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 93px;
+        }
+
+        .service-img{
+            width: 70px;
+            height: 69px;
+        }
+
+        .list-service{
+            list-style: none;
+            margin-right: 26px;
+        }
+
+        .text-services{
+            width: 304px;
+            height: 56px;
+        }
+
+        .service{
+            display: flex;
+            text-align: center;
+        }
+
+        .black{
+            background-color: #222222;
+            width: 1511px;
+            height: 679px;
+        }
+
+        .white{
+            color:#FFFFFF;
+            text-transform: uppercase;
+            
+        }
+
+        .contact{
+            text-align: center;
+            padding-top: 92px;
+        }
+
+        .input{
+            width: 455px;
+            height: 50px;
+            background-color: #FFFFFF;
+            text-transform: uppercase;
+            margin-top: 28px;
+            }
+
+            .inputs{
+                display: flex;
+                flex-direction: column;
+                margin-left: 233px;
+            }
+            .input:first-child{
+                margin-top: 0px;
+            }
+            .textarea{
+                text-transform: uppercase;
+                width: 458px;
+                height: 212px;
+                margin-left: 27px;
+            }
+
+            .inputs-and-textarea{
+                display: flex;
+                margin-top: 114px;
+            }
+
+            .button{
+              background-color: #FED136;  
+              width: 242px;
+              height: 68px;
+              
+            }
+
+            .form-button{
+                text-align: center;
+                margin-top: 47px;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="golden Bilbo">Golden</a>
+            <nav>
+                <ul class="list-nav">
+                    <li><a href="#" class="link-nav Montserat">home</a></li>
+                    <li><a href="#" class="link-nav Montserat">services</a></li>
+                    <li><a href="#" class="link-nav Montserat">portfolio</a></li>
+                    <li><a href="#" class="link-nav Montserat">about</a></li>
+                    <li><a href="#" class="link-nav Montserat">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main><div>
+            <h1 class="Montserat Montserat-700 services">services</h1>
+        
+            <div class="service">
+                <ul class="list-service">
+                    <li><img src="./backet.JPG" alt="backet" class="service-img">
+                        <p class="Montserat Montserat-700">E-Commerce</p>
+                        <p class="Robotoslab text-services">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                            entum suscipit aenean rhoncus posuere odio in
+                            tincidunt.</p>
+                    </li>
+                </ul>
+        
+                <ul class="list-service">
+                    <li><img src="./backet.JPG" alt="backet" class="service-img">
+                        <p class="Montserat Montserat-700">Responsive Web</p>
+                        <p class="Robotoslab text-services">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                            entum
+                            suscipit aenean rhoncus posuere odio in
+                            tincidunt.</p>
+                    </li>
+                </ul>
+        
+                <ul class="list-service">
+                    <li><img src="./backet.JPG" alt="backet" class="service-img">
+                        <p class="Montserat Montserat-700">Web Security</p>
+                        <p class="Robotoslab text-services">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                            entum
+                            suscipit aenean rhoncus posuere odio in
+                            tincidunt.</p>
+                    </li>
+                </ul>
+        
+            </div>
+        
+        </div>
+    </div>
+    <div class="black">
+        <h2 class="Montserat Montserat-700 white contact">contact us</h2>
+        <form class="form">
+            <div class="inputs-and-textarea">
+            <div class="inputs">
+                <input type="text" placeholder="your name*" class="input Montserat Montserat-700">
+                <input type="text" placeholder="your e-mail*" class="input Montserat Montserat-700">
+                <input type="text" placeholder="subject" class="input Montserat Montserat-700">
+            </div>
+            <div class="textarea"><textarea placeholder="Your message *"
+                class="Montserat Montserat-700 textarea"></textarea></div>
+                </div>
+        <div class="form-button">
+        <button class="button white Montserat Montserat-700" type="submit">Send Message</button>
+        </div>
+        
+        </form>
+    </div>
+
+</main>
+
+        
+    
+    
+</body>
+</html>
